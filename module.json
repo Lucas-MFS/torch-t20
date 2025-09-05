@@ -78,7 +78,7 @@
   ],
   "manifest": "https://raw.githubusercontent.com/Lucas-MFS/torch-t20/refs/heads/main/module.json",
   "download": "https://github.com/Lucas-MFS/torch-t20/raw/refs/heads/main/torch.zip",
-  "url": "https://github.com/League-of-Foundry-Developers/torch",
+  "url": "https://github.com/Lucas-MFS/torch-t20",
   "compatibility": {
     "minimum": "13",
     "verified": "13.346",
