@@ -1143,6 +1143,49 @@ export default {
       },
     },
   },
+  "tormenta20": {
+    "system": "tormenta20",
+    "topology": "standard",
+    "quantity" : "qtd",
+    "sources": {
+      "Tocha": {
+        "name": "Tocha",
+        "type": "consumivel",
+        "consumable": true,
+        "states": 2,
+        "light": [
+          { 
+            "bright": 7, "dim": 9, "angle": 360, "color": "#ff9329", "alpha": 0.5,
+            "animation": { "type": "torch", "speed": 5, "intensity": 5, "reverse": false } 
+          }
+        ]
+      },
+     "Lampião": {
+        "name": "Lampião",
+        "type": "tesouro",
+        "consumable": false,
+        "states": 2,
+        "light": [
+          { 
+            "bright": 25, "dim": 30, "angle": 360, "color": "#ff9329", "alpha": 0.5,
+            "animation": { "type": "torch", "speed": 5, "intensity": 5, "reverse": false } 
+          }
+        ]
+      },
+      "Luz": {
+        "name": "Luz",
+        "type": "magia",
+        "consumable": false,
+        "states": 2,
+        "light": [
+          { 
+            "bright": 4, "dim": 6, "angle": 360, "color": "#ff9329", "alpha": 0.5,
+            "animation": { "type": "energy", "speed": 5, "intensity": 5, "reverse": false } 
+          }
+        ]
+      }
+    }
+  },
   "default": {
     "system": "default",
     "topology": "none",
